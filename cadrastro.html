@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="cadrastro.css">
+     <link rel="shortcut icon" href="fotos/Gemini_Generated_Image_ujjfc8ujjfc8ujjf.png" type="image/x-icon">
+    <title>Cadastro</title>
+</head>
+<body>
+    <section>
+
+            
+            <nav class="nav">
+                <div class="menu-texto">
+                    <i class="fa-solid fa-bars"></i> Menu
+                </div>
+                <div class="menu-icones">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                   <a href="favorito.html"><i class="fa-regular fa-heart"></i></a> 
+                    <a href="cadrastro.html"><i class="fa-regular fa-user"></i></a> 
+                    <a href="sacola.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+            </nav>
+
+            <div class="voltar">
+        <a href="principal.html">
+        <i class="fa-solid fa-chevron-left"></i></a>
+            </div>
+
+        <form action="principal.html" method="post">
+            <div class="campo">
+                <label>Nome:</label>
+                <input type="text" id="Nome" required>
+            </div>
+
+            <div class="campo">
+                <label>Data de nascimento:</label>
+                <input type="date" id="Nascimento" required>
+            </div>
+
+            <div class="campo">
+                <label>CPF:</label>
+                <input type="text" id="CPF" placeholder="000.000.000-00" required>
+            </div>
+
+            <div class="campo">
+                <label>E-mail:</label>
+                <input type="email" id="Email" required>
+            </div>
+
+            <div class="campo">
+                <label>Senha:</label>
+                <input type="password" id="Senha" required>
+            </div>
+
+            <div class="campo">
+                <label>Conf.senha:</label>
+                <input type="password" id="ConfSenha" required>
+            </div>
+
+            <input type="submit" class="btn" value="finalizar"></input>   
+        </form>
+        
+            <footer class="footer"></footer>
+    </section>
+</body>
+</html>
